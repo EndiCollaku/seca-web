@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "../Navbar";
 import MainFooter from "../Footer";
 import dadsa from "../../assets/about_pic.jpeg";
-import about_pic from "../../assets/about_pic2.jpeg";
+import about_pic from "../../assets/first11111.jpeg";
 import beannn from "../../assets/beannn.png";
 import water from "../../assets/water.png";
 import temp from "../../assets/temp.png";
