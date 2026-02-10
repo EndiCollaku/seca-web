@@ -1,6 +1,6 @@
 // FullWidthImage.jsx
 import React from 'react';
-import MyImage from '../assets/croped_pic.jpg';
+import MyImage from '../assets/first11111.jpeg';
 
 const FullWidthImage = () => {
   return (
