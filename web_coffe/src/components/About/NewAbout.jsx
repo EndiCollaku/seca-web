@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "../Navbar";
 import MainFooter from "../Footer";
 import dadsa from "../../assets/about_pic.jpeg";
-import about_pic from "../../assets/first11111.jpeg";
+import about_pic from "../../assets/about_us_1.jpeg";
 import beannn from "../../assets/beannn.png";
 import water from "../../assets/water.png";
 import temp from "../../assets/temp.png";
@@ -14,12 +14,14 @@ const NewAbout = () => {
       {/* Navbar */}
       <Navbar />
 
-      {/* Full-width image */}
-      <img
-        src={about_pic}
-        alt="Coffee"
-        className="w-full h-screen object-cover object-[5%_30%]"
-      />
+      {/* Full-width responsive image */}
+      <div className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-screen overflow-hidden">
+        <img
+          src={about_pic}
+          alt="Coffee"
+          className="w-full h-full object-cover object-center sm:object-[center_30%] md:object-[5%_30%]"
+        />
+      </div>
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 md:px-10 py-20 grid md:grid-cols-2 gap-10 items-center">
@@ -30,11 +32,11 @@ const NewAbout = () => {
           transition={{ duration: 1 }}
           className="space-y-6 text-justify"
         >
-          <h2 className="text-black font-alumni text-5xl">
+          <h2 className="text-black font-alumni text-3xl sm:text-4xl md:text-5xl">
             TAKE IT | SIP IT | SAVOUR IT
           </h2>
           
-          <p className="text-black leading-relaxed font-alumni text-2xl md:text-2xl">
+          <p className="text-black leading-relaxed font-alumni text-lg sm:text-xl md:text-2xl">
             Seca started in the heart of Blloku, Tirana, with a simple vision: to turn every coffee into a carefully crafted experience. <br />
             From selecting high-quality beans to perfecting roasting and brewing, every step is guided by precision and passion. Our goal has always been more than just serving coffee—it's about creating a space where people can pause, connect, and enjoy a moment of calm in the city's energy. <br />
             With a clean minimalist design and a focus on authentic flavors, SECA brings quality and craftsmanship to every cup. <br />
@@ -52,7 +54,7 @@ const NewAbout = () => {
           <img
             src={dadsa}
             alt="Coffee cup"
-            className="w-[250px] md:w-[250px] drop-shadow-2xl z-10"
+            className="w-[200px] sm:w-[220px] md:w-[250px] drop-shadow-2xl z-10"
           />
         </motion.div>
       </section>
@@ -81,7 +83,7 @@ const NewAbout = () => {
           <img
             src={beannn}
             alt="Bean cup"
-            className="w-[140px] md:w-[130px] drop-shadow-2xl z-10"
+            className="w-[100px] sm:w-[120px] md:w-[130px] drop-shadow-2xl z-10"
           />
         </motion.div>
 
@@ -105,7 +107,7 @@ const NewAbout = () => {
           <img
             src={water}
             alt="Water"
-            className="w-[140px] md:w-[130px] drop-shadow-2xl z-10"
+            className="w-[100px] sm:w-[120px] md:w-[130px] drop-shadow-2xl z-10"
           />
         </motion.div>
 
@@ -129,7 +131,7 @@ const NewAbout = () => {
           <img
             src={temp}
             alt="Temperature"
-            className="w-[140px] md:w-[130px] drop-shadow-2xl z-10"
+            className="w-[100px] sm:w-[120px] md:w-[130px] drop-shadow-2xl z-10"
           />
         </motion.div>
       </section>

@@ -11,7 +11,7 @@ const MenuData = [
     img: Img2,
     name: "Fredo Cappuccino",
     description:
-      "A mocha – smooth espresso blended with chocolate for a rich and sweet flavor.",
+      "Iced espresso, creamy foam, perfectly balanced.",
   },
   {
     id: 2,
