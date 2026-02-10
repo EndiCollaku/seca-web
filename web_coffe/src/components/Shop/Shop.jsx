@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Navbar from "../Navbar";
 import { Link, useLocation } from "react-router-dom";
 
-import tshirt from "../../assets/tshirt.jpeg";
+import tshirt from "../../assets/tshirt1.jpeg";
 import trucker from "../../assets/trucker.jpeg";
 import bottle from "../../assets/bottle.jpeg";
 import tote from "../../assets/tote.jpeg";

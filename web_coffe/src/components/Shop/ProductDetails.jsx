@@ -5,7 +5,7 @@ import { useParams, Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import MainFooter from "../Footer";
 
-import tshirt from "../../assets/tshirt.jpeg";
+import tshirt from "../../assets/tshirt1.jpeg";
 import trucker from "../../assets/trucker.jpeg";
 import bottle from "../../assets/bottle.jpeg";
 import tote from "../../assets/tote.jpeg";
@@ -13,7 +13,7 @@ import tote from "../../assets/tote.jpeg";
 const products = [
   {
     id: "daily-grind",
-    name: "SECA Daily Grind – T-Shirt",
+    name: "SECA Daily Grind–T-Shirt",
     tagline: "Your daily grind, your daily tee.",
     description:
       "Soft, breathable, and minimalist—perfect for coffee runs, workdays, or lazy weekends. The SECA logo keeps it simple, timeless, and effortlessly you.",
